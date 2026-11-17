@@ -1,0 +1,16 @@
+plain: area(3,4,5) = 6.00
+throw(): area(3,4,5) = 6.00
+standard: area(3,4,5) = 6.00
+empty: area(3,4,5) = 6.00
+parameters: area(3,4,5) = 6.00
+derived: area(3,4,5) = 6.00
+plain caught: Sides must be positive
+plain caught: Sides must be positive
+plain caught: Triangle inequality is not satisfied
+plain caught: Sides must be finite
+standard caught: Triangle inequality is not satisfied
+throw(): error handled inside; marker = -1.00
+main caught EmptyError
+main caught ParameterError(1.00,2.00,3.00): Triangle inequality is not satisfied
+main caught TriangleError; std::exception::what(): Triangle inequality is not satisfied
+Self-checks: PASS
